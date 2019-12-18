@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<p>
+			<label for="firstName">First Name:</label>
+			<input type="text" name="FirstName" id="firstName" placeholder="John" required="">
+			<label for="lastName">Last Name:</label>
+			<input type="text" name="LastName" id="lastName" placeholder="Smith" required="">
+		</p>
+		<p>
+			<label for="male">Male</label>
+			<input type="radio" name="Gender" id="male" value="Male">
+			<label for="female">Female</label>
+			<input type="radio" name="Gender" id="female" value="Female">
+			<label for="other">Other</label>
+			<input type="radio" name="Gender" id="other" value="Other">
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="Email" name="Email" id="email" placeholder="your email" required>
+			<label for="password">Password:</label>
+			<input type="Password" name="Password" id="password" pattern=".{5,10}" required title="5 to 10 characters">
+		</p>
+		<p>
+			<label for="birthday">Birthday:</label>
+			<select name="Month" id="birthday">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+			</select>
+			<select name="Day" id="birthday">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<select name="Year" id="birthday">
+				<option>Year</option>
+				<option>1995</option>
+				<option>1996</option>
+				<option>1997</option>
+			</select>
+		</p>
+		<p>
+			<label for="confirm">I agree to the terms and conditions</label>
+			<input type="checkbox" name="Confirm" id="confirm">
+		</p>
+		<p>
+			<input type="submit">
+		</p>
+	</form>
+</body>
+</html>

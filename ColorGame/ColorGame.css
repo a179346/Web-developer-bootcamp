@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    background-color: #232323;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Avernir";
+}
+
+.textCenter {
+    text-align: center;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    padding-bottom: 30%;
+    width: 30%;
+    margin: 1.66%;
+    float: left;
+    transition: background-color 0.6s;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    border-radius: 15%;
+}
+
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+#stripe{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected{
+    background: steelblue;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    padding: 20px 0;
+    line-height: 1.1;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#answer{
+    font-size: 2em;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    height: 100%;
+    color: steelblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    outline: none;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+button:hover{
+    background: steelblue;
+    color: white;
+}

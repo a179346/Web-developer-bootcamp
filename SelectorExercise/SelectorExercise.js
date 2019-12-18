@@ -1,0 +1,12 @@
+var tag = document.getElementById("first");
+console.log(tag);
+tag = document.getElementsByClassName("special")[0];
+console.log(tag);
+tag = document.getElementsByTagName("p")[0];
+console.log(tag);
+tag = document.querySelector("#first");
+console.log(tag);
+tag = document.querySelector(".special");
+console.log(tag);
+tag = document.querySelector("p");
+console.log(tag);
